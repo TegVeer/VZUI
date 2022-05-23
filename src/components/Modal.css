@@ -1,0 +1,88 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200, 0.2);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 500px;
+  min-height: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.headerSection{
+  display: flex;
+  border-bottom: 3px solid #000;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 25px;  
+}
+.headerSection > h3{
+  font-size: 25px;
+  margin: 15px 0px;
+}
+
+.crossButton{
+  cursor: pointer;
+}
+.formSection{
+  padding: 20px;
+}
+.inputField{
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid #111;
+  height: 30px;
+  margin: 0px 0px;
+  font-size: 16px;
+  border-bottom: 3px solid #000;
+}
+.lable{
+  display:flex;
+  flex-direction:row;
+  font-size:12px;
+  align-items:baseline;
+  font-weight:bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.radioBtn{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+
+.clearButton{
+  border-radius: 100px;
+  margin: 0px 10px 20px 10px ;
+  background-color: #fff;
+  height: 35px;
+  width: 120px;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+
+.submitButton{
+  border-radius: 100px;
+  margin: 0px 0px 20px 10px ;
+  background-color: #000;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  color: #fff;
+}
+.buttonSection{
+  display: flex;
+  justify-content: end;
+  padding: 0px 25px;
+}
