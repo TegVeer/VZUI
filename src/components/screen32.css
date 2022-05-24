@@ -18,26 +18,26 @@
   color: #000;
 }
 
-.headerSection{
+.headerSection {
   display: flex;
-  border-bottom: 3px solid #000;
+  border-bottom: 2px solid #000;
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding: 0px 25px;  
+  padding: 0px 25px;
 }
-.headerSection > h3{
-  font-size: 25px;
+.headerSection > h3 {
+  font-size: 20;
   margin: 15px 0px;
 }
 
-.crossButton{
+.crossButton {
   cursor: pointer;
 }
-.formSection{
+.formSection {
   padding: 20px;
 }
-.inputField{
+.inputField {
   width: 100%;
   border-radius: 0px;
   border: 1px solid #111;
@@ -46,42 +46,44 @@
   font-size: 16px;
   border-bottom: 3px solid #000;
 }
-.lable{
-  display:flex;
-  flex-direction:row;
-  font-size:12px;
-  align-items:baseline;
-  font-weight:bold;
+.lable {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: baseline;
+  font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-.radioBtn{
+.radioBtn {
   display: flex;
   flex-direction: row;
   margin: 5px 0px;
 }
 
-.clearButton{
+.clearButton {
   border-radius: 100px;
-  margin: 0px 10px 20px 10px ;
+  margin: 0px 10px 20px 10px;
   background-color: #fff;
   height: 35px;
   width: 120px;
   font-weight: bold;
+  cursor: pointer;
   border: 2px solid #000;
 }
 
-.submitButton{
+.submitButton {
   border-radius: 100px;
-  margin: 0px 0px 20px 10px ;
+  margin: 0px 0px 20px 10px;
   background-color: #000;
   font-weight: bold;
   height: 35px;
   width: 120px;
+  cursor: pointer;
   color: #fff;
 }
-.buttonSection{
+.buttonSection {
   display: flex;
   justify-content: end;
   padding: 0px 25px;

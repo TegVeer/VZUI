@@ -1,0 +1,148 @@
+.modalBackground {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200, 0.2);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  overflow: auto;
+}
+
+.modalContainer {
+  z-index: 1000;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  pointer-events: auto;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  pointer-events: auto;
+  background-clip: padding-box;
+  outline: 0;
+}
+.headerSection {
+  display: flex;
+  border-bottom: 2px solid #000;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 25px;
+}
+.headerSection > h3 {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.crossButton {
+  cursor: pointer;
+}
+
+.formSection {
+  padding: 0px 20px;
+}
+.formSection > h4 {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  text-align: start;
+  align-items: flex-start;
+}
+.detailsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 10;
+}
+.lablesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 3;
+}
+.lables {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.detailsContainer {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.detailsText {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputContainer {
+  display: flex;
+  width: auto;
+  flex: 10;
+  margin: 0px 0px 0px 20px;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid #000;
+}
+.inputContainer input,
+select {
+  border: 1px solid #eee;
+  outline: none;
+  display: flex;
+  height: 20px;
+  flex: 8;
+}
+.inputContainer div {
+  display: flex;
+  height: 22px;
+  border: 1px solid #eee;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.horizontalContainer {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttonSection {
+  display: flex;
+  justify-content: end;
+}
+.clearButton {
+  border-radius: 100px;
+  margin: 0px 10px 20px 10px;
+  background-color: #fff;
+  height: 35px;
+  width: 120px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.submitButton {
+  border-radius: 100px;
+  margin: 0px 0px 20px 10px;
+  background-color: #000;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+  color: #fff;
+}
